@@ -1,0 +1,615 @@
+.extended-showcase-element {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+    align-items: center;
+    margin-bottom: 10vh;
+    justify-content: center;
+    height: 100vh;
+}
+.extended-showcase-element h1 {
+ text-align: left;
+ font-family: 'Chillax', sans-serif;
+ font-size: calc(10px + 16.3vmin);
+ margin-top: -10px;
+}
+.extended-showcase-element h1 span {
+    color: var(--nextui-colors-primaryLightContrast);
+}
+.extended-showcase-element h3 {
+    text-align: left;
+    padding-left: 8px;
+    font-family: 'General Sans', sans-serif;
+    font-size: calc(10px + 5vmin);
+   }
+   .extended-showcase-element a {
+    padding: 15px 32px;
+    height: 65px;
+    font-size: 25px;
+   }
+   .extended-showcase-element a span {
+    font-size: 30px;
+   }
+.m-0 {
+    margin: 0;
+}
+.extended-showcase-element h2 {
+    text-align: left;
+    margin-top: -40px;
+    padding-left: 8px;
+    font-family: 'General Sans', sans-serif;
+    font-size: calc(10px + 7.5vmin);
+   }
+   .extended-showcase-element h2 span {
+    color: var(--nextui-colors-primaryLightContrast);
+    font-size: calc(10px + 7.4vmin);
+   }
+   .extended-showcase-element h2 b {
+    color: var(--nextui-colors-primaryLightContrast);
+    font-size: calc(10px + 10vmin);
+   }
+   .inline-showcase-element_1 {
+    height: 52vh;
+    justify-content: center;
+   }
+   .inline-showcase-element {
+    text-align: center;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .inline-showcase-element p {
+    margin-top: 20vh;
+    font-family: 'Satoshi', sans-serif;
+    animation: scrollFrame 5s ease 0s infinite normal forwards;
+    font-weight: bold;
+    user-select: none;
+    font-size: calc(10px + 2vmin);
+   }
+
+   @keyframes scrollFrame {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+
+    // ABOUT
+
+
+    .extended-component-about {
+        margin-top: 18vh;
+        margin-bottom: 12vh;
+        padding: 4px 8%;
+    }
+
+    .first-section-item-content {
+        text-align: center;
+        font-size: calc(10px + 6vmin);
+        font-family: 'General Sans', sans-serif;
+    }
+    
+    .first-section-item-content span {
+        padding-left: 4px;
+    }
+    .extended-inline-item-about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1.1%;
+    }
+    .extended-inline-item-about-content p {
+        font-size: calc(10px + 2.5vmin);
+        font-family: 'Chillax', sans-serif;
+    }
+    .extended-inline-item-about-content p span {
+    color: var(--nextui-colors-primaryLightContrast);
+    font-family: 'General Sans', sans-serif;
+    font-weight: bold;
+    }
+
+        // SKILLS
+
+        .first-section-item-content {
+            margin-top: 9vh;
+            margin-bottom: 11vh;
+        }
+        .last-section-item-content {
+            margin-top: 9vh;
+            margin-bottom: 4vh;
+            text-align: center;
+            font-size: calc(10px + 6vmin);
+            font-family: 'General Sans', sans-serif;
+        }
+       .extended-skills-section-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2px 5.5%;
+        justify-content: center;
+        flex-wrap: wrap;
+       }
+       .const-skills-section_item {
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease-out;
+        align-items: center;
+        border-radius: 30px;
+        font-weight: bold;
+        font-family: 'Chillax', sans-serif;
+        background: rgba(0, 0, 0, 0.3);
+        width: 290px;
+        margin: 7px;
+        height: 300px;
+        border: 1.5px solid rgba(0, 0, 0, 0.3);
+        justify-content: center;
+       }
+       .const-skills-section_item:hover {
+        border: 1.5px solid var(--nextui-colors-primaryLightContrast);
+        transition: all 0.4s ease-out;
+       }
+       .const-skills-section_item svg {
+        font-size: 120px;
+        color: var(--nextui-colors-primaryLightContrast);
+       }
+       .const-skills-section_item h2 {
+        vertical-align: bottom;
+        margin-top: 7px;
+       }
+       .custom-prototype-skills svg {
+            width: 120px;
+            padding-bottom: 22px;
+       }
+
+
+        // PROJECTS
+
+        .extended-router-projects {
+            margin-top: 16vh;
+            margin-bottom: 12vh;
+        }
+        .projects-extended-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 3px 3%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .extended-project_item {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            border-radius: 20px;
+            transition: all 0.4s ease-out;
+            padding-top: 16px;
+            flex-direction: column;
+            background: rgba(0, 0, 0, 0.6);
+            width: 400px;
+            margin: 7px;
+            height: 480px;
+            padding: 20px;
+            align-items: center;
+        }
+        .element-svg-i-project svg {
+            width: 250px;
+            height: 60px;
+        }
+        .extended-project-domain-router_item {
+            font-family: 'General Sans', sans-serif;
+        }
+        .extended-project-sub_content {
+            font-family: 'Satoshi', sans-serif;
+            font-size: 20px;
+        }
+        .extended-project_item-stack {
+            padding: 10px 0;
+            margin: 10px 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+        .extended-project_item-stack h4 {
+            padding: 10px 0;
+         border-bottom: 1.5px solid  var(--nextui-colors-text);
+         border-top: 1.5px solid  var(--nextui-colors-text);
+        color: var(--nextui-colors-primaryLightContrast);
+        font-family: 'Chillax', sans-serif;
+        font-size: 25px;
+        }
+        .project-visit-router-inline-element {
+            transition: all 0.4s ease-out;
+            font-size: 23px;
+            padding: 15px 30%;
+            color: var(--nextui-colors-text);
+            border-radius: 8px;
+            font-family: 'Chillax', sans-serif;
+            background: var(--nextui-colors-primaryLightContrast);
+        }
+        .project-visit-router-inline-element:hover svg {
+            display: inline-block;
+
+        }
+        .project-visit-router-inline-element svg {
+            margin-left: 16px;
+            font-size: 26px;
+            font-weight: bold;
+           display: none;
+        }
+        .custom-navigation-component-svg {
+            stroke: var(--nextui-colors-text);
+            fill: var(--nextui-colors-text);
+            stroke-width: 0.25mm;
+            stroke-linecap: round;
+            fill-rule: evenodd;
+            font-size: 9pt;
+            transition: all .4s ease-out;
+        }
+        .custom-navigation-component-svg g {
+            stroke-width: 0.25mm;
+            stroke: var(--nextui-colors-text);
+            fill: var(--nextui-colors-text);
+        }
+
+            // COUNTER
+
+            .extended-counter-element {
+                margin-top: 7vh;
+                margin-bottom: 11vh;
+            }
+            .extended-counter-element-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .conter-element_item {
+                margin: 7px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: nowrap;
+            }
+
+            // FOOTER
+
+            .extended-bottom-element_contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 4%;
+                justify-content: center;
+                flex-wrap: nowrap;
+            }
+            .extended-content-last  {
+                font-family: 'Chillax', sans-serif;
+                font-size: 35px;
+                text-align: center;
+                padding: 20px 10%;
+            }
+            .extended-content-last  span {
+                color: var(--nextui-colors-primaryLightContrast);
+            }
+            .last-gmail-router-component {
+                background: var(--nextui-colors-text);
+                padding: 16px 28px;
+                border-radius: 7px;
+                color: var(--nextui-colors-black);
+                font-size: 27px;
+                font-weight: bold;
+                font-family: 'General Sans', sans-serif;
+            }
+            .footer-info-component {
+                font-size: 25px;
+                margin-top: 5vh;
+                user-select: none;
+                font-family: 'Chillax', sans-serif;
+            }
+            .footer-info-component span {
+                color: var(--nextui-colors-primaryLightContrast);
+            }
+            .copyright-info-component {
+                font-size: 23px;
+                user-select: none;
+                font-family: 'General Sans', sans-serif;
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 700px) {
+
+                // SHOWCASE
+                .extended-showcase-element {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 20px;
+                    align-items: center;
+                    margin-bottom: 10vh;
+                    justify-content: center;
+                    height: 100vh;
+                }
+                .extended-showcase-element h1 {
+                 text-align: left;
+                 font-family: 'Chillax', sans-serif;
+                 font-size: calc(10px + 17vmin);
+                 margin-top: 0;
+                 line-height: 6rem;
+                }
+                .extended-showcase-element h1 span {
+                    color: var(--nextui-colors-primaryLightContrast);
+                }
+                .extended-showcase-element h3 {
+                    text-align: left;
+                    padding-left: 0;
+                    font-family: 'General Sans', sans-serif;
+                    font-size: calc(10px + 7vmin);
+                   }
+                   .extended-showcase-element a {
+                    padding: 15px 32px;
+                    height: 65px;
+                    font-size: 25px;
+                   }
+                   .extended-showcase-element a span {
+                    font-size: 30px;
+                   }
+                .m-0 {
+                    margin: 0;
+                }
+                .extended-showcase-element h2 {
+                    text-align: left;
+                    margin-top: 0;
+                    padding-left: 0;
+                    font-family: 'General Sans', sans-serif;
+                    font-size: calc(10px + 10vmin);
+                   }
+                   .extended-showcase-element h2 span {
+                    color: var(--nextui-colors-primaryLightContrast);
+                    font-size: calc(10px + 10vmin);
+                   }
+                   .extended-showcase-element h2 b {
+                    color: var(--nextui-colors-primaryLightContrast);
+                    font-size: calc(10px + 10vmin);
+                   }
+                   .first-section-item-content {
+                    text-align: center;
+                    font-size: calc(10px + 9vmin);
+                    font-family: 'General Sans', sans-serif;
+                    margin-top: 5vh;
+                    margin-bottom: 3vh;
+                }
+                
+                // ABOUT
+
+
+                .extended-component-about {
+                    margin-top: 18vh;
+                    margin-bottom: 12vh;
+                    padding: 4px 15px;
+                }
+
+                .first-section-item-content {
+                    text-align: center;
+                    font-size: calc(10px + 9vmin);
+                    font-family: 'General Sans', sans-serif;
+                }
+                
+                .first-section-item-content span {
+                    padding-left: 5px;
+                }
+                .extended-inline-item-about-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 20px;
+                    justify-content: center;
+                    padding: 0 5px;
+                }
+                .extended-inline-item-about-content p {
+                    font-size: calc(10px + 3vmin);
+                    font-family: 'Chillax', sans-serif;
+                }
+                .extended-inline-item-about-content p span {
+                color: var(--nextui-colors-primaryLightContrast);
+                font-family: 'General Sans', sans-serif;
+                font-weight: bold;
+                }
+
+    // SKILLS
+
+    .first-section-item-content {
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    }
+    .last-section-item-content {
+        margin-top: 9vh;
+        margin-bottom: 4vh;
+        text-align: center;
+        font-size: calc(10px + 6vmin);
+        font-family: 'General Sans', sans-serif;
+    }
+   .extended-skills-section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8%;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .const-skills-section_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'Chillax', sans-serif;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 7px;
+    height: 300px;
+    justify-content: center;
+   }
+   .const-skills-section_item svg {
+    font-size: 100px;
+    color: var(--nextui-colors-primaryLightContrast);
+   }
+   .const-skills-section_item h2 {
+    vertical-align: bottom;
+    margin-top: 15px;
+   }
+   .custom-prototype-skills svg {
+        width: 120px;
+        padding-bottom: 22px;
+   }
+
+
+      // PROJECTS
+
+      .extended-router-projects {
+        margin-top: 16vh;
+        margin-bottom: 12vh;
+    }
+    .projects-extended-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 3px 2%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .extended-project_item {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+        transition: all 0.4s ease-out;
+        padding-top: 16px;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        margin: 7px;
+        height: 550px;
+        padding: 20px;
+        align-items: center;
+    }
+    .element-svg-i-project svg {
+        width: 200px;
+        height: 60px;
+    }
+    .extended-project-domain-router_item {
+        font-family: 'General Sans', sans-serif;
+    }
+    .extended-project-sub_content {
+        font-family: 'Satoshi', sans-serif;
+        font-size: 20px;
+    }
+    .extended-project_item-stack {
+        padding: 10px 0;
+        margin: 10px 0;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .extended-project_item-stack h4 {
+        padding: 10px 0;
+     border-bottom: 1.5px solid  var(--nextui-colors-text);
+     border-top: 1.5px solid  var(--nextui-colors-text);
+    color: var(--nextui-colors-primaryLightContrast);
+    font-family: 'Chillax', sans-serif;
+    font-size: 25px;
+    }
+    .project-visit-router-inline-element {
+        transition: all 0.4s ease-out;
+        font-size: 23px;
+        padding: 15px 26%;
+        color: var(--nextui-colors-text);
+        border-radius: 8px;
+        font-family: 'Chillax', sans-serif;
+        background: var(--nextui-colors-primaryLightContrast);
+    }
+    .project-visit-router-inline-element:hover svg {
+        display: inline-block;
+
+    }
+    .project-visit-router-inline-element svg {
+        margin-left: 16px;
+        font-size: 26px;
+        font-weight: bold;
+       display: none;
+    }
+    .custom-navigation-component-svg {
+        stroke: var(--nextui-colors-text);
+        fill: var(--nextui-colors-text);
+        stroke-width: 0.25mm;
+        stroke-linecap: round;
+        fill-rule: evenodd;
+        font-size: 9pt;
+        transition: all .4s ease-out;
+    }
+    .custom-navigation-component-svg g {
+        stroke-width: 0.25mm;
+        stroke: var(--nextui-colors-text);
+        fill: var(--nextui-colors-text);
+    }
+
+
+
+            // FOOTER
+
+            .extended-bottom-element_contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 4%;
+                justify-content: center;
+                flex-wrap: nowrap;
+            }
+            .extended-content-last  {
+                font-family: 'Chillax', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                padding: 20px 7%;
+            }
+            .extended-content-last  span {
+                color: var(--nextui-colors-primaryLightContrast);
+            }
+            .last-gmail-router-component {
+                background: var(--nextui-colors-text);
+                padding: 16px 28px;
+                border-radius: 7px;
+                color: var(--nextui-colors-black);
+                font-size: 27px;
+                font-weight: bold;
+                font-family: 'General Sans', sans-serif;
+            }
+            .footer-info-component {
+                font-size: 25px;
+                margin-top: 5vh;
+                text-align: center;
+                user-select: none;
+                font-family: 'Chillax', sans-serif;
+            }
+            .footer-info-component span {
+                color: var(--nextui-colors-primaryLightContrast);
+                font-size: 28px;
+            }
+            .copyright-info-component {
+                font-size: 23px;
+                user-select: none;
+                font-family: 'General Sans', sans-serif;
+                font-weight: bold;
+            }
+
+            .last-section-item-content {
+                margin-top: 9vh;
+                margin-bottom: 4vh;
+                text-align: center;
+                font-size: calc(10px + 10vmin);
+                font-family: 'General Sans', sans-serif;
+            }
+}
