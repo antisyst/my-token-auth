@@ -14,7 +14,7 @@ export default function Home() {
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
       <Head>
-        <title>Ramazan Azimli | Frontend UI Developer</title>
+        <title>Name | ### Developer</title>
         <meta name="description" content="Ramazan Azimli | Frontend UI Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
