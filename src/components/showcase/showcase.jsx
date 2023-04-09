@@ -32,8 +32,8 @@ export default function Showcase() {
         <div className="extended-showcase-element">
             <div className="inline-showcase-element_1">
                 <Text h3 className="m-0 animate__animated animate__fadeIn" >Hi, my name is</Text>
-                <Text h1  className="m-0 animate__animated animate__fadeIn">Ramazan Azimli<span>.</span></Text>
-                <Text h2  className="m-0 animate__animated animate__fadeIn">I'am Frontend <span>UI</span> Developer <b>.</b></Text>
+                <Text h1  className="m-0 animate__animated animate__fadeIn">Name Surname<span>.</span></Text>
+                <Text h2  className="m-0 animate__animated animate__fadeIn">I'am <span>Powerful</span> Developer <b>.</b></Text>
                 <div className="inline-showcase-element">
                     <Text p className="animate__animated animate__fadeIn">Scroll Down</Text>
                 </div>
@@ -51,18 +51,6 @@ export default function Showcase() {
         <div className="extended-component-skills">
         <Text h1 className="first-section-item-content">Skills</Text>
             <div className="extended-skills-section-container">
-                <div className="const-skills-section_item">
-                    <RiHtml5Fill/>
-                    <Text h2>HTML5</Text>
-                </div>
-                <div className="const-skills-section_item">
-                    <RiCss3Fill/>
-                    <Text h2>CSS3</Text>
-                </div>
-                <div className="const-skills-section_item">
-                    <MdOutlineJavascript/>
-                    <Text h2>JavaScript</Text>
-                </div>
                 <div className="const-skills-section_item">
                     <RiReactjsFill/>
                     <Text h2>ReactJS</Text>
@@ -157,120 +145,10 @@ export default function Showcase() {
                     <Text h2>DaisyUI</Text>
                 </div>
                 <div className="const-skills-section_item">
-                    <SiChakraui/>
-                    <Text h2>ChakraUI</Text>
-                </div>
-                <div className="const-skills-section_item">
                     <SiJest/>
                     <Text h2>Jest</Text>
                 </div>
             </div>
-        </div>
-        <div className="extended-router-projects">
-        <Text h1 className="first-section-item-content">Projects</Text>
-        <div className="projects-extended-container">
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <DevolveIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">devolve.netlify.app</Text>
-                <Text p className="extended-project-sub_content">We bring you closer to becoming a programmer through our special learning methodology. This method saves you time.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ViteJS, SASS, jQuery, Git, NPM, Jest, Router, Webpack</Text>
-                </div>
-                <Link href="https://devolve.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <NastupIcon className='custom-navigation-component-svg'/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">nastup.netlify.app</Text>
-                <Text p className="extended-project-sub_content">It is now very easy to take your idea online. Growing your project will be fully supported by our professional team </Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, jQuery, Framer Motion, NPM, Reveal, Router</Text>
-                </div>
-                <Link href="https://nastup.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <StokenIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">stoken.netlify.app</Text>
-                <Text p className="extended-project-sub_content">Explore New Crypto World. Discover the next generation in sending cryptocurrencies. Use the New Blockchain Technology.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, Blockchain, Context API, TailwindCSS</Text>
-                </div>
-                <Link href="https://stoken.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <VathAppIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">vathapp.netlify.app</Text>
-                <Text p className="extended-project-sub_content">Do you need last day delivery? We are here to rescue you. If using our shipping service, your goods will arrive in less than a day.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, TypeScript, SASS, Framer Motion, Reveal.</Text>
-                </div>
-                <Link href="https://vathapp.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <JamesRobert/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">jamesrobert.netlify.app</Text>
-                <Text p className="extended-project-sub_content">James Robert is Junior Backend Developer. He needed portfolio. This project is to show his skills.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ViteJS, SASS, Framer Motion, PostCSS, Reveal</Text>
-                </div>
-                <Link href="https://jamesrobert.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <ExoWearIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">exowear.netlify.app</Text>
-                <Text p className="extended-project-sub_content">We attract young people from all over the world with our fashionable and quality clothes. Free Worldwide Shipping :)</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, Router, jQuery, Context, SPA</Text>
-                </div>
-                <Link href="https://exowear.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <CdnverseIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">cdnverse.netlify.app</Text>
-                <Text p className="extended-project-sub_content">Access over 100 of the most popular libraries and APIs with a single tap.
-                <br /><br /></Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, Context API, NPM, Chakra UI, Router</Text>
-                </div>
-                <Link href="https://cdnverse.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <ZastCarsIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">zastcars.netlify.app</Text>
-                <Text p className="extended-project-sub_content">The Europe's Top Popular Cars Marketplace.
-You are the only place to have luxury, used, beautiful and budget-friendly cars.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, Router, Reveal, Redux</Text>
-                </div>
-                <Link href="https://zastcars.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-            <div className="extended-project_item">
-                <div className="element-svg-i-project">
-                <LandsenseIcon/>
-                </div>
-                <Text h3 className="extended-project-domain-router_item">landsense.netlify.app</Text>
-                <Text p className="extended-project-sub_content">See rare sights and monuments in the world with one touch and get information about them.</Text>
-                <div className="extended-project_item-stack">
-                    <Text h4>ReactJS, SASS, Core UI, Material UI, Animation</Text>
-                </div>
-                <Link href="https://landsense.netlify.app/" target={"_blank"} className='project-visit-router-inline-element'>Visit Project</Link>
-            </div>
-        </div>
         </div>
         <div className="extended-bottom-element_contact">
         <Text h1 className="last-section-item-content">Contact</Text>
