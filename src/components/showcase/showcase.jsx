@@ -32,8 +32,8 @@ export default function Showcase() {
         <div className="extended-showcase-element">
             <div className="inline-showcase-element_1">
                 <Text h3 className="m-0 animate__animated animate__fadeIn" >Hi, my name is</Text>
-                <Text h1  className="m-0 animate__animated animate__fadeIn">Name Surname<span>.</span></Text>
-                <Text h2  className="m-0 animate__animated animate__fadeIn">I'am <span>Powerful</span> Developer <b>.</b></Text>
+                <Text h1  className="m-0 animate__animated animate__fadeIn">Ramazan Azimli<span>.</span></Text>
+                <Text h2  className="m-0 animate__animated animate__fadeIn">I'am Front <span>React</span> Developer <b>.</b></Text>
                 <div className="inline-showcase-element">
                     <Text p className="animate__animated animate__fadeIn">Scroll Down</Text>
                 </div>
@@ -43,7 +43,7 @@ export default function Showcase() {
              <Text h1 className="first-section-item-content">About <span>me</span></Text>
             <div className="extended-inline-item-about-content">
               <Text p>
-                I'am a passionate <Text span> Frontend Developer</Text> in building visually appealing and user-friendly websites. I have a strong understanding of modern web development technologies and frameworks such as <Text span>HTML</Text>, <Text span>CSS</Text>, <Text span>JavaScript</Text>, <Text span>React</Text> and etc. I have a keen eye for design and a solid understanding of user experience principles.
+                I'am a passionate <Text span> Frontend Developer</Text> in building visually appealing and user-friendly websites. I have a strong understanding of modern web development technologies and frameworks such as <Text span>HTML</Text>, <Text span>CSS</Text>, <Text span>TypeScript</Text>, <Text span>React</Text>, <Text span>NextJS</Text> and etc. I have a keen eye for design and a solid understanding of user experience principles.
                 I have worked on various projects, from small-scale websites to large-scale enterprise prjects. I'am a skilled communicator who excels at collaborating with designers, developers, and project managers to ensure that projects are delivered on time and within budget. I'am always looking for new challenges and opportunities to improve My skills and knowledge in the field of web development.
               </Text>
            </div>
